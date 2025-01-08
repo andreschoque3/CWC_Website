@@ -1,0 +1,18 @@
+.strip {
+    background-color: #0047AB;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+
+.icons svg {
+    font-size: 22px;
+    margin: 0 10px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    color: white;
+}
+
+.icons svg:hover {
+    transform: translateY(-5px);
+}

@@ -7,7 +7,7 @@
 
 .icons svg {
     font-size: 22px;
-    margin: 0 10px;
+    margin: 5px 10px;
     transition: transform 0.5s;
     cursor: pointer;
     color: white;

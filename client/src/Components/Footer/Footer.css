@@ -1,0 +1,46 @@
+.footer {
+    background-color: #0047AB;
+    margin-top: 45px;
+}
+
+.line {
+    height: 5px;
+    background-color: white;
+    width: 50px;
+    margin: 15px 0;
+}
+
+.text-cols {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.service-a {
+    width: 50%;
+}
+
+.i-al {
+    display: flex;
+    gap: 10px;
+}
+
+.phone, .email {
+    font-size: 20px;
+    transition: transform 0.5s;
+}
+
+.phone:hover, .email:hover {
+    transform: scale(1.1);
+}
+
+.bbb img {
+    width: 70%;
+    height: auto;
+    cursor: pointer;
+}
+
+.copyright p {
+    margin-top: 55px;
+    text-align: center;
+}

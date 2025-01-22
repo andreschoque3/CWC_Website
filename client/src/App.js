@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Home from './Pages/Home/Home';
@@ -12,7 +12,7 @@ import Contact from './Pages/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter 
+      <HashRouter 
         future={{
         v7_relativeSplatPath: true, 
         v7_startTransition: true,
@@ -25,7 +25,7 @@ function App() {
           <Route path='/about-us' element={<About/>}/>
           <Route path='/contact-us' element={<Contact/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <ToastContainer/>
     </div>
   );

@@ -4,11 +4,17 @@ import office from '../../Assets/office.jpg'
 import germs from '../../Assets/germs.jpg'
 import chart from '../../Assets/chart.jpg'
 import lab from '../../Assets/lab.jpg'
-import product from '../../Assets/product1.jpg'
+import product from '../../Assets/cooler1-2.png'
+import product2 from '../../Assets/ice3-2.png'
+import product3 from '../../Assets/ice1-2.png'
 import Navbar from '../../Components/Navbar/Navbar'
 import Strip from '../../Components/Strip/Strip';
-import Cases from '../../Components/cases/Cases'
+import Cases from '../../Components/Cases/Cases'
 import Footer from '../../Components/Footer/Footer'
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Carousel from '../../Components/Carousel/Carousel'
 
 function Home() {
 
@@ -43,6 +49,31 @@ function Home() {
     }
   ]
 
+  const images = [
+    {
+      img: product,
+      alt: 'product2'
+    },
+    {
+      img: product2,
+      alt: 'product2'
+    },
+    {
+      img: product3,
+      alt: 'product3'
+    }
+  ]
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  }
+
   return (
     <div>
       <div className='header'>
@@ -64,9 +95,15 @@ function Home() {
           <h1>The Best Water Cooler & Ice Machine Rentals and Service</h1>
           <p>We give you safer, cleaner, and more reliable water in Northern Virginia, MD, and Washington, DC.</p>
           <div className='img-align'>
-            <img src={product} alt="" />
-
-            {/* slider logic */}
+            <Slider {...settings}>
+              {images.map((image, index) => (
+                  <Carousel
+                    key={index}
+                    img={image.img}
+                    alt={image.alt}
+                  />
+              ))}
+            </Slider>
           </div>
         </div>
       </div>

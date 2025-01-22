@@ -31,4 +31,47 @@ nav ul li a {
 
 .logo {
     width: 200px;
+    cursor: pointer;
+}
+
+nav .fa-xmark, .fa-bars {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    nav .fa-xmark, .fa-bars {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        color: #0047AB;
+    }
+
+    nav ul {
+        background: white;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+        padding: 10px;
+    }
+    
+    nav ul .fa-xmark {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    nav ul.active {
+        right: 0;
+    }
 }

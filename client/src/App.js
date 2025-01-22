@@ -12,7 +12,11 @@ import Contact from './Pages/Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter 
+        future={{
+        v7_relativeSplatPath: true, 
+        v7_startTransition: true,
+        }}>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/water-coolers' element={<Water/>}/>

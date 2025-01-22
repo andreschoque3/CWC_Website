@@ -41,6 +41,21 @@
     
 } */
 
+.slick-slide {
+    display: flex !important; /* Ensure the slide container uses flexbox */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    height: auto !important; /* Allow the height to adjust dynamically */
+    overflow: hidden; /* Prevent excess white space */
+}
+
+.slick-slide img {
+    width: auto; /* Let the width adjust naturally */
+    max-width: 100%; /* Prevent the image from exceeding its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image is scaled proportionally */
+}
+
 .products h1, .products p {
     color: #0047AB;
     text-align: center;  
@@ -123,6 +138,7 @@
 
 .cols {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
 }

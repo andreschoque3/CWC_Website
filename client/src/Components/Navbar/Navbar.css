@@ -50,7 +50,7 @@ nav .fa-xmark, .fa-bars {
         background: white;
         position: fixed;
         top: 0;
-        right: -200px;
+        right: -250px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -73,5 +73,9 @@ nav .fa-xmark, .fa-bars {
 
     nav ul.active {
         right: 0;
+    }
+
+    nav {
+        justify-content: space-around;
     }
 }

@@ -10,6 +10,7 @@ import ice7 from '../../Assets/ice7-7.jpg';
 import Strip from '../../Components/Strip/Strip';
 import Navbar from '../../Components/Navbar/Navbar';
 import Coolers from '../../Components/Coolers/Coolers';
+import Footer from '../../Components/Footer/Footer'
 
 function Ice() {
 
@@ -118,6 +119,8 @@ function Ice() {
             </div>
         </div>
       </div>
+
+      <Footer/>
     </div>
   )
 }

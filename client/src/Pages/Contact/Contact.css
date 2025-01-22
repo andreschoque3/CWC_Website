@@ -44,3 +44,25 @@ form input, form textarea {
     text-align: center;
     margin: 20px 0;
 }
+
+@media screen and (max-width: 800px) {
+    .title h1, .message h1 {
+        font-size: 30px;
+    }
+
+    iframe {
+        width: auto;
+    }
+
+    .contact {
+        display: inline-block;
+    }
+
+    form input, form textarea {
+        width: 80%;
+    }
+
+    .form-c {
+        text-align: center;
+    }
+}

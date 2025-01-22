@@ -16,3 +16,15 @@
 .btn-a {
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .water {
+        height: 80vh;
+    }
+
+    .simple-txt p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+}

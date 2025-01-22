@@ -7,3 +7,9 @@
     url(../../Assets/ice-bg.jpg);
     position: relative;
 }
+
+@media screen and (max-width: 800px) {
+    .ice {
+        height: 80vh;
+    }
+}

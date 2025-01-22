@@ -29,3 +29,23 @@
 .info-abt {
     margin-bottom: 55px;
 }
+
+@media screen and (max-width: 800px) {
+    .about {
+        height: 80vh;
+    }
+    
+    .simple-txt h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .info-abt h1 {
+        font-size: 30px;
+    }
+
+    .info-abt p {
+        font-size: 18px;
+    }
+    
+}

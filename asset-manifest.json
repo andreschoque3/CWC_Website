@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/CWC_Website/static/css/main.91cc92e5.css",
+    "main.js": "/CWC_Website/static/js/main.9a897df6.js",
+    "static/media/cooler3-3.png": "/CWC_Website/static/media/cooler3-3.7c02ffbdae75265d6e5d.png",
+    "static/media/cooler1-1.png": "/CWC_Website/static/media/cooler1-1.a68c3e77044c3db2c369.png",
+    "static/media/cooler2-2.png": "/CWC_Website/static/media/cooler2-2.a7bb3681e6bbc34398b1.png",
+    "static/media/About-bg.jpg": "/CWC_Website/static/media/About-bg.7952c69dc11dd22192b2.jpg",
+    "static/media/cooler4-4.png": "/CWC_Website/static/media/cooler4-4.1c34c8beea59073a0e94.png",
+    "static/media/ice3-3.png": "/CWC_Website/static/media/ice3-3.3331c8bd7173cd046f03.png",
+    "static/media/Home-bg.jpg": "/CWC_Website/static/media/Home-bg.be0da2c4449b877d8c3f.jpg",
+    "static/media/ice3-2.png": "/CWC_Website/static/media/ice3-2.e84e457e23f41ae00083.png",
+    "static/media/cooler1-2.png": "/CWC_Website/static/media/cooler1-2.b60f8c9a1fc228d10952.png",
+    "static/media/ice1-1.png": "/CWC_Website/static/media/ice1-1.6c53f538caee038b326c.png",
+    "static/media/ice2-2.png": "/CWC_Website/static/media/ice2-2.469c81069117c80f4dc0.png",
+    "static/media/ice-bg.jpg": "/CWC_Website/static/media/ice-bg.35033cfa1bfddfdf4c4d.jpg",
+    "static/media/ice4-4.png": "/CWC_Website/static/media/ice4-4.01c5fbab515046f67d5c.png",
+    "static/media/Why-bg.jpg": "/CWC_Website/static/media/Why-bg.f9a420984c65ae3009ba.jpg",
+    "static/media/ice1-2.png": "/CWC_Website/static/media/ice1-2.d82d6328d991ddd84078.png",
+    "static/media/cooler-bg.jpg": "/CWC_Website/static/media/cooler-bg.035ac55adf4af3b8aaab.jpg",
+    "static/media/cooler5-5.png": "/CWC_Website/static/media/cooler5-5.17cbae220e4d5677bd2d.png",
+    "static/media/cwc-logo-1-nobg.png": "/CWC_Website/static/media/cwc-logo-1-nobg.a0c61548e3edd1e51d65.png",
+    "static/media/ice5-5.png": "/CWC_Website/static/media/ice5-5.3cd26d06a0b34e09ea18.png",
+    "static/media/office.jpg": "/CWC_Website/static/media/office.9bc9f0139fd2f2beb759.jpg",
+    "static/media/chart.jpg": "/CWC_Website/static/media/chart.b0d91128838068f99f4e.jpg",
+    "static/media/lab.jpg": "/CWC_Website/static/media/lab.3c043ae59c409a716e46.jpg",
+    "static/media/germs.jpg": "/CWC_Website/static/media/germs.6ee19a5efab9e3850c59.jpg",
+    "static/media/ice6-6.jpg": "/CWC_Website/static/media/ice6-6.700efeec48491148a210.jpg",
+    "static/media/bbb.png": "/CWC_Website/static/media/bbb.93c61635be07cf287b6e.png",
+    "static/media/ice7-7.jpg": "/CWC_Website/static/media/ice7-7.63701f402884c8d40be5.jpg",
+    "static/media/slick.svg": "/CWC_Website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/CWC_Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/CWC_Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/CWC_Website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/CWC_Website/index.html",
+    "main.91cc92e5.css.map": "/CWC_Website/static/css/main.91cc92e5.css.map",
+    "main.9a897df6.js.map": "/CWC_Website/static/js/main.9a897df6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91cc92e5.css",
+    "static/js/main.9a897df6.js"
+  ]
+}

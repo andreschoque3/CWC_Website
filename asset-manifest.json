@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CWC_Website/static/css/main.91cc92e5.css",
-    "main.js": "/CWC_Website/static/js/main.5d56b447.js",
+    "main.js": "/CWC_Website/static/js/main.6a0439a7.js",
     "static/media/cooler3-3.png": "/CWC_Website/static/media/cooler3-3.7c02ffbdae75265d6e5d.png",
     "static/media/cooler1-1.png": "/CWC_Website/static/media/cooler1-1.a68c3e77044c3db2c369.png",
     "static/media/cooler2-2.png": "/CWC_Website/static/media/cooler2-2.a7bb3681e6bbc34398b1.png",
@@ -34,10 +34,10 @@
     "static/media/slick.woff": "/CWC_Website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/CWC_Website/index.html",
     "main.91cc92e5.css.map": "/CWC_Website/static/css/main.91cc92e5.css.map",
-    "main.5d56b447.js.map": "/CWC_Website/static/js/main.5d56b447.js.map"
+    "main.6a0439a7.js.map": "/CWC_Website/static/js/main.6a0439a7.js.map"
   },
   "entrypoints": [
     "static/css/main.91cc92e5.css",
-    "static/js/main.5d56b447.js"
+    "static/js/main.6a0439a7.js"
   ]
 }
